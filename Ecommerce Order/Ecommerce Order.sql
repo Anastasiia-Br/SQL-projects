@@ -1,4 +1,4 @@
--- combine the tables "orders", "customers", "items", "products", "payments" and display the columns necessary for analysis from all five tables
+-- combine the tables "orders", "customers", "items", "products", "payments" and display the columns necessary for analysis from all five tables. Also created 2 additional columns "execution_interval" and "total_price"
 
 with main as(
 select distinct orders.order_id  
